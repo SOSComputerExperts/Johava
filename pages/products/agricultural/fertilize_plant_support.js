@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Heading, Section, FlexBox, Button, Paragraph } from "theme";
+import { Section, Paragraph } from "theme";
 
 import SEO from "components/SEO";
 
@@ -27,13 +27,22 @@ const Inner = styled.div`
   gap: 20px;
 `;
 
+const DescWithPic = styled.div`
+  display: flex;
+  gap: 20px;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+`;
+
 const Home = () => {
   return (
     <>
       <SEO title="Fertilizers & Plant Support" />
       <Header title="Fertilizers & Plant Support" image={PlantsHeader} />
       <ProductsContainer>
-        <div style={{ display: "flex", gap: "20px" }}>
+        <DescWithPic>
           <Paragraph>
             Fertilizers are chemical or natural substances that are added to the
             land to increase its fertility. By fertilizing the soil, the plants
@@ -50,7 +59,7 @@ const Home = () => {
             improving its water retention capabilities and increasing aeration.
           </Paragraph>
           <img src={FertilizeMidPage.src} />
-        </div>
+        </DescWithPic>
 
         <Paragraph>
           Fertilizer comes in many forms both all-natural and synthetic. Some
