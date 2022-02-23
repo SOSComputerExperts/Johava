@@ -79,7 +79,7 @@ const Footer = () => {
           <LogoPH>Johava Enterprise</LogoPH>
         </Section>
       </Main>
-      <CopyRights>@2021 SOS COMPUTER EXPERTS</CopyRights>
+      <CopyRights>@{new Date().getFullYear()} SOS COMPUTER EXPERTS</CopyRights>
     </>
   );
 };
