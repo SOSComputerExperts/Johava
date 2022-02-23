@@ -392,7 +392,7 @@ const Home = () => {
               <div style={{ display: "flex", gap: "50px" }}>
                 <div>
                   <Image src={RedKidneyBeans} height={400} />
-                  <Paragraph>Red KIDNEY BEANS</Paragraph>
+                  <Paragraph>RED KIDNEY BEANS</Paragraph>
                 </div>
                 <div>
                   <Image src={DarkKidneyBeans} height={400} />
