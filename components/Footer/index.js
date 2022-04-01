@@ -72,7 +72,7 @@ const Footer = () => {
           <div>
             {/* <p>+1 604 986 1030</p> */}
             <p>+1 604 428 0588</p>
-            <p>info@johava.com</p>
+            <p>info@jeinctrading.com</p>
           </div>
         </Section>
         <Section>

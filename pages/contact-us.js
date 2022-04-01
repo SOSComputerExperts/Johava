@@ -26,7 +26,7 @@ const Home = () => {
 
         <Paragraph>+1 604 428 0588</Paragraph>
 
-        <Paragraph>info@johava.com</Paragraph>
+        <Paragraph>info@jeinctrading.com</Paragraph>
 
         <img
           src={MidPageTrianglesRight.src}
